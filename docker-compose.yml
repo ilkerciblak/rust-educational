@@ -1,0 +1,12 @@
+services:
+  rust-dev:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: rust-dev-container
+    volumes: 
+      - ./rust-lang-book/:/usr/src/app/rust-lang-book
+      # TODO: Add volume for local Rust projects
+    stdin_open: true
+    tty: true
+

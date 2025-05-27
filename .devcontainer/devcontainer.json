@@ -1,0 +1,23 @@
+{
+    "name": "Rust Development Environment",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "rust-dev",
+    "settings": {
+        "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+        "rust-analyzer.checkOnSave.allTargets": true
+    },
+    "extensions": [
+    "vadimcn.vscode-lldb",
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml",
+    "usernamehw.errorlens",
+    "GitHub.github-vscode-theme",
+    "BarbossHack.crates-io",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "esbenp.prettier-vscode",
+    "emmanuelbeziat.vscode-great-icons"
+    ],
+    "workspaceFolder": "/usr/src/app/rust-lang-book",
+    "remoteUser": "root"
+}
